@@ -20,3 +20,16 @@ def get_model_dict(category_id, use_case_id):
       data = json.load(json_file)
   models = data[category_id][use_case_id]
   return models
+
+def display_dropdown(models, prop='name', prop_name='Name'):
+  import ipywidgets as widgets
+  from IPython.display import display
+
+  model_selected = widgets.Dropdown(
+      options=[m[prop] for m in models],
+      description=prop_name,
+      layout={'width': 'max-content'},
+      disabled=False,
+  )
+  display(model_selected)
+  return model_selected

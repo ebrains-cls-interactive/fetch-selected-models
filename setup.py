@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
   name='fetch-selected-models',
-  version='0.1.2',
+  version='0.1.5',
   author='EPFL / BBP',
   author_email='stefano.antonel@epfl.ch',
   packages=find_packages(),
