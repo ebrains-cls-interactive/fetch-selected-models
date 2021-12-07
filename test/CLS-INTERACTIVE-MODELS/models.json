@@ -1,0 +1,28 @@
+{
+  "morphology":{
+     "morphologyAnalysis":[
+        {
+           "id":"01006de7-e861-45fb-abf4-3c84e609d33b",
+           "date":"06/05/2021",
+           "name":"CA1_int_cNAC_970911C_20180120154902",
+           "uri":"https://nexus.humanbrainproject.org/v0/data/modelvalidation/simulation/modelproject/v0.1.1/01006de7-e861-45fb-abf4-3c84e609d33b"
+        },
+        {
+           "id":"00f2e856-27a8-4b8d-9ec3-4e2581c546e4",
+           "date":"06/05/2021",
+           "name":"CA1_pyr_cACpyr_mpg141208_B_idA_20170915151855",
+           "uri":"https://nexus.humanbrainproject.org/v0/data/modelvalidation/simulation/modelproject/v0.1.1/00f2e856-27a8-4b8d-9ec3-4e2581c546e4"
+        }
+     ]
+  },
+  "singlecellmodeling":{
+     "rebuildHippocampalCellModel":[
+        {
+           "id":"00f2e856-27a8-4b8d-9ec3-4e2581c546e4",
+           "date":"06/05/2021",
+           "name":"CA1_pyr_cACpyr_mpg141208_B_idA_20170915151855",
+           "uri":"https://nexus.humanbrainproject.org/v0/data/modelvalidation/simulation/modelproject/v0.1.1/00f2e856-27a8-4b8d-9ec3-4e2581c546e4"
+        }
+     ]
+  }
+}
